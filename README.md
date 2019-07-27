@@ -1,4 +1,11 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## This is LUAR
+
+Most of the search sites of roomies saturates you with repetitive feeds and a lot of information that is not important, which makes searching quite difficult and therefore you do not find the right one.
+
+The goal in this project is to ensure that users do not get saturated with many options when searching for a room or a roomie, and that by continuing to search their feed, they do not see the same thing again and again. What is proposed is to SAVE the options that you consider convenient and DISMISS with which you think you could not do MATCH.
+
+
+*This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
