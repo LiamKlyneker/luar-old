@@ -5,6 +5,8 @@ module.exports = {
       {
         root: '.',
         alias: {
+          'luar-components': './src/components/luar-components',
+          '#components': './src/components',
           '#pages': './src/pages',
         },
       },
