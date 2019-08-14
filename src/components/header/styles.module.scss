@@ -1,0 +1,37 @@
+.mainHeader {
+	border-bottom: 2px solid #EFEFF2;
+	& > div {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		max-width: calc(1200px + 4rem);
+		margin-left: auto;
+		margin-right: auto;
+		height: 72px;
+		padding: .5rem 2rem;
+	}
+}
+
+.mainHeader__options {
+	display: flex;
+	.options__inbox {
+		top: 4px;
+		position: relative;
+		margin-right: 1rem;
+	}
+}
+
+@media all and (min-width: 768px) {
+	.mainHeader {
+		& > div {
+			height: 78px;
+		}
+	}
+	.main-header__options {
+		.options__inbox {
+			top: 3px;
+			position: relative;
+			margin-right: 2rem;
+		}
+	}
+}

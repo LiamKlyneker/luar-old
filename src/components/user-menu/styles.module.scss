@@ -1,0 +1,44 @@
+.userMenu {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: fit-content;
+    figure {
+        margin-right: .5rem;
+    }
+    p {
+        margin: 0;
+        font-weight: 400;
+        color: #B0B2BD;
+        padding-top: 5px;
+        margin-right: .5rem;
+        display: none;
+    }
+    span:before {
+        content: "";
+        border-top: 6px solid #BCBDC3;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        height: 6px;
+        width: 0;
+        display: block;
+        top: 4px;
+        position: relative;
+    }
+}
+.userMenu:hover {
+    p {
+        color: #0922AA;
+    }
+    span:before {
+        border-top-color: #0922AA;
+    }
+}
+
+@media all and (min-width: 750px) {
+    .userMenu {
+        p {
+            display: block;
+        }
+    }
+}

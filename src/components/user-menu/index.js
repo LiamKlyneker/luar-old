@@ -1,11 +1,16 @@
 import React from 'react';
+import cx from 'classnames';
+
 import { Avatar } from 'luar-components';
-import DefaultAvatar from '/src/static/default-avatar.jpg';
+import DefaultAvatar from '/src/static/default-avatar.JPG';
+
+import styles from './styles.module.scss';
 
 const UserMenu = () => (
-	<div>
+	<div className={cx(styles.userMenu)}>
 		<Avatar src={DefaultAvatar} />
 		<p>Liam Klyneker</p>
+		<span />
 	</div>
 );
 

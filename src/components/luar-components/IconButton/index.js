@@ -2,9 +2,9 @@ import React from 'react';
 import cx from 'classnames';
 
 const IconButton = ({ icon }) => (
-	<button>
+	<button className={cx('iconButton')}>
 		<i className={
-			cx('material-icons', 'iconButton')
+			cx('material-icons')
 		}>
 			{icon}
 		</i>
