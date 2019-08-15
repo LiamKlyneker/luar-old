@@ -1,0 +1,33 @@
+.tabs {
+  box-shadow: 0 1px 0 $blue_light;
+  margin-bottom: 2px;
+  button {
+    background-color: transparent;
+    font-family: 'Arvo', serif;
+    font-weight: 400;
+    padding: .25rem;
+    padding-right: 1.25rem;
+    margin-right: .25rem;
+    margin-bottom: -2px;
+    cursor: pointer;
+    color: $grey_text;
+    outline: none;
+  }
+  button:hover {
+    color: $black_text;
+  }
+  button.active {
+    border-bottom: 3px solid $luar_blue;
+    color: $black_text;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .tabs {
+    button {
+      font-size: 18px;
+      padding: .7rem .25rem;
+      padding-right: 2rem;
+    }
+  }
+}

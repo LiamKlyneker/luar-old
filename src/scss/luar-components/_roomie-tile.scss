@@ -1,0 +1,42 @@
+.roomie-tile {
+  text-decoration: none;
+  border: 2px solid $grey_background;
+  display: block;
+  background-color: white;
+  figure {
+    margin: 0;
+    img {
+      width: 100%;
+    }
+  }
+  footer {
+    padding: 1.5rem 2rem;
+  }
+}
+
+.roomie-tile:hover {
+  background-color: rgba(black, .025);
+}
+
+.roomie-tile__full-name {
+  font-size: 18px;
+  color: $black_text;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: .5rem;
+  small {
+    font-size: 14px;
+    font-weight: 400;
+    color: $grey_text;
+    margin-left: .3rem;
+  }
+}
+
+.roomie-tile__looking {
+  color: $black_text;
+  font-size: 14px;
+  margin: 0;
+  span {
+    color: $grey_text;
+  }
+}

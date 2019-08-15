@@ -27,11 +27,12 @@
 			height: 78px;
 		}
 	}
-	.main-header__options {
+	.mainHeader__options {
+		padding-right: 1.5rem;
 		.options__inbox {
 			top: 3px;
 			position: relative;
-			margin-right: 2rem;
+			margin-right: 1.5rem;
 		}
 	}
 }
