@@ -2,7 +2,7 @@ import React from 'react';
 import cx from 'classnames';
 
 import { Avatar } from 'luar-components';
-import DefaultAvatar from '/src/static/default-avatar.JPG';
+import DefaultAvatar from '/src/static/default-avatar.jpg';
 
 import styles from './styles.module.scss';
 

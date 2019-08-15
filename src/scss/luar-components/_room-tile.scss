@@ -1,0 +1,40 @@
+.room-tile {
+  text-decoration: none;
+  border: 2px solid $grey_background;
+  display: block;
+  background-color: white;
+  figure {
+    margin: 0;
+    img {
+      width: 100%;
+    }
+  }
+  footer {
+    padding: 1.5rem 2rem;
+  }
+}
+
+.room-tile:hover {
+  background-color: rgba(black, .025);
+}
+
+.room-tile__address {
+  font-size: 18px;
+  color: $black_text;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: .5rem;
+  small {
+    font-size: 14px;
+    font-weight: 400;
+    color: $grey_text;
+    margin-left: .3rem;
+  }
+}
+
+.room-tile__price {
+  color: $black_text;
+  font-size: 16px;
+  margin: 0;
+  color: $grey_text;
+}

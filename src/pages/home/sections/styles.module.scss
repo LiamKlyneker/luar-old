@@ -1,0 +1,40 @@
+.list {
+  padding-top: .5rem;
+}
+@media all and (min-width: 650px) {
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1.5rem;
+    & > * {
+      flex: 1 50%;
+      max-width: 50%;
+    }
+  }
+}
+@media all and (min-width: 1024px) {
+  .list {
+    & > * {
+      flex: 1 33.33%;
+      max-width: 33.33%;
+    }
+  }
+}
+
+.options {
+  display: flex;
+  margin-top: 1.5rem;
+  justify-content: flex-end;
+  & > *:first-child {
+    margin-right: 1rem;
+  }
+}
+
+@media all and (min-width: 650px) {
+  .options {
+    margin-top: 2rem;
+    & > * {
+      margin-right: 1.5rem;
+    }
+  }
+}

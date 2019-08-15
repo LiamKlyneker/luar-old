@@ -4,4 +4,24 @@
 html {
 	font-family: 'Hind Guntur', sans-serif;
 	font-size: 16px;
+	font-weight: 400;
+}
+
+main {
+	margin-top: 2rem;
+}
+
+.container {
+	max-width: calc(1200px + 4rem);
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 2rem;
+}
+.container--full {
+	padding: 0;
+}
+@media all and (min-width: 768px) {
+	.container {
+		padding: 0 2rem;
+	}
 }

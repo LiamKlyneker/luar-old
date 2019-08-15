@@ -2,3 +2,8 @@ export { default as Icon } from './Icon';
 export { default as IconButton } from './IconButton';
 export { default as LuarLogo } from './LuarLogo';
 export { default as Avatar } from './Avatar';
+export { default as Tabs } from './Tabs';
+export { default as RoomieTile } from './RoomieTile';
+export { default as RoomTile } from './RoomTile';
+export { default as Currency } from './Currency';
+export { default as Button } from './Button';

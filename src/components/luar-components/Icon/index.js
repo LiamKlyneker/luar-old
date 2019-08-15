@@ -1,5 +1,12 @@
 import React from 'react';
+import cx from 'classnames';
 
-const Icon = () => <p>Icon</p>
+const Icon = ({ icon }) => (
+  <i className={
+    cx('material-icons')
+  }>
+    {icon}
+  </i>
+)
 
 export default Icon;
