@@ -2,7 +2,7 @@ import React from 'react';
 import cx from 'classnames';
 
 import { LuarLogo, IconButton } from 'luar-components';
-import UserMenu from '#components/user-menu'
+import UserMenu from '#components/user-menu';
 
 import styles from './styles.module.scss';
 

@@ -7,14 +7,14 @@ import HomePage from '#pages/home';
 import './scss/default.scss';
 
 function App() {
-  return (
-    <>
-    	<MainHeader />
-      <Router>
-        <Route path="/" component={HomePage} />
-      </Router>
-    </>
-  );
+	return (
+		<>
+			<MainHeader />
+			<Router>
+				<Route path="/" component={HomePage} />
+			</Router>
+		</>
+	);
 }
 
 export default App;
