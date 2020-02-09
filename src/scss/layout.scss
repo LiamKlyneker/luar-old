@@ -25,3 +25,15 @@ main {
 		padding: 0 2rem;
 	}
 }
+
+@media all and (min-width: 1024px) {
+	.container--room-roomie-detail {
+		display: flex;
+		& > div {
+			flex: 1;
+		}
+		& > div:first-child {
+			max-width: 486px;
+		}
+	}
+}

@@ -1,0 +1,9 @@
+.gallery {
+  height: 384px;
+  background-color: rgba(black, .2);
+}
+@media all and (min-width: 1024px) {
+  .gallery {
+    height: 498px;
+  }
+}

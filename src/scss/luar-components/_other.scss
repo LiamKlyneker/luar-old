@@ -1,0 +1,13 @@
+.text-grey {
+  color: $grey_text_3
+}
+
+.border-bottom {
+  border-bottom: 1px solid $grey_background;
+}
+
+@media all and (min-width: 1024px) {
+  .border-bottom--no-desktop {
+    border-bottom-width: 0;
+  }
+}

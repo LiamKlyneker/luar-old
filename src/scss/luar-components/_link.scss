@@ -1,0 +1,14 @@
+.link {
+  color: $luar_blue;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  i {
+    margin-left: 5px;
+    position: relative;
+    top: -2px;
+  }
+}
+
