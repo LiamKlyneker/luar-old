@@ -9,7 +9,7 @@
   border-radius: 4px;
   padding-top: .7rem;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 1px;
   cursor: pointer;
   .material-icons {
@@ -21,7 +21,8 @@
 .button.button--primary {
   border-color: $luar_blue;
   color: $luar_blue;
-  padding: .5rem 1rem;
+  padding: .5rem 3rem;
+  padding-top: .75rem;
   &:hover {
     background-color: $luar_blue;
     color: white;
@@ -30,6 +31,7 @@
 .button.button--secondary {
   border-color: transparent;
   padding: .5rem 0;
+  padding-top: .75rem;
   color: $grey_text;
   &:hover {
     color: $luar_blue;
@@ -38,9 +40,14 @@
 
 @media all and (min-width: 768px) {
   .button {
-    font-size: 14px;
+    font-size: 16px;
+    height: 48px;
   }
   .button.button--primary {
-    padding: .5rem 2rem;
+    padding: .5rem 3rem;
+    padding-top: .85rem;
+  }
+  .button.button--secondary {
+    padding-top: .85rem;
   }
 }
