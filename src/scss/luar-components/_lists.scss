@@ -8,6 +8,12 @@
     margin-bottom: .75rem;
   }
 }
+.ul.ul--vertical {
+  display: block;
+  li {
+    margin-bottom: 1rem;
+  }
+}
 @media all and (min-width: 768px) {
   .ul {
     .li {

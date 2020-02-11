@@ -11,9 +11,9 @@ import {
   Li,
   Link,
   Icon,
+  Currency,
 } from 'luar-components';
 import styles from './styles.module.scss';
-import { Currency } from '../../../components/luar-components';
 
 const MainInfoSection = () => {
   return (
