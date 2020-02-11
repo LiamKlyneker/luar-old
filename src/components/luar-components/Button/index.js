@@ -9,6 +9,7 @@ const Button = ({ children, type }) => {
         { 'button--primary': type === 'primary' },
         { 'button--secondary': type === 'secondary' }
       )}
+      data-testid="Button"
     >
       {children}
     </button>
